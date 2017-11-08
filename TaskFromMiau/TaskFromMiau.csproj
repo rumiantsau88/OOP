@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{282F767F-52F1-420D-825F-7CECF23B12D7}</ProjectGuid>
+    <ProjectGuid>{500F5470-EE01-432B-9083-020BB07D2F70}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Mnogougolnik</RootNamespace>
-    <AssemblyName>Mnogougolnik</AssemblyName>
+    <RootNamespace>TaskFromMiau</RootNamespace>
+    <AssemblyName>TaskFromMiau</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Figure.cs" />
-    <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
